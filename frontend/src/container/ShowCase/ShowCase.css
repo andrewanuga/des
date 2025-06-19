@@ -1,0 +1,13 @@
+@keyframes blob-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.blob {
+  animation: blob-rotate 20s linear infinite;
+  mix-blend-mode: overlay;
+}

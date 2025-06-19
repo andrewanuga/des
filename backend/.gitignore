@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env/*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Celery
+celerybeat-schedule
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Distribution / packaging
+*.egg-info/
+/dist/
+/build/
+/eggs/
+/parts/
+/sdist/
+/wheels/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Compiled contracts
+/build/
+/artifacts/

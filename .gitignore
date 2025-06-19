@@ -1,0 +1,36 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Local development files
+local_settings.py
+*.local
+
+# Docker
+docker-compose.override.yml
+
+# Documentation
+_site/
+.sass-cache/
+
+# Large files
+*.zip
+*.tar.gz
+
+# Secret files
+*.pem
+*.key
+*.cert
+
+# Smart contract artifacts
+/contracts/artifacts/
+/contracts/cache/
